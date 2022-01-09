@@ -34,9 +34,22 @@
             ]
         },
         {
+            "type": "file",
+            "source": "salt/",
+            "destination": "/srv/salt"
+        },
+        {
+            "type": "file",
+            "source": "pillar/",
+            "destination": "/srv/pillar"
+        },
+        {
             "type": "salt-masterless",
-            "local_state_tree": "salt",
-            "local_pillar_roots": "pillar"
+            "local_state_tree": "salt"
+        },
+        {
+            "type": "breakpoint",
+            "note": "Confirm Salt provisioner"
         }
     ]
 }
