@@ -23,10 +23,10 @@
             "ssh_username": "ubuntu"
         },
         {
-          "type": "lxd",
-          "image": "ubuntu:focal",
-          "name": "lxd-prom",
-          "init_sleep": "30"
+            "type": "lxd",
+            "image": "ubuntu:focal",
+            "name": "lxd-prom",
+            "init_sleep": "30"
         }
     ],
     "provisioners": [
