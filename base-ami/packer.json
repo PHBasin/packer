@@ -40,5 +40,14 @@
         "scripts/metrics.sh"
       ]
     }
+  ],
+  "post-processors": [
+    {
+      "type": "vagrant"
+    },
+    {
+      "type": "compress",
+      "output": "vagrant.tar.gz"
+    }
   ]
 }
